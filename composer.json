@@ -1,0 +1,22 @@
+{
+    "name": "ervin-meng/php-oauth2",
+    "description" : "PHP OAuth2组件",
+    "type": "application",
+    "keywords": ["php","oauth2","component"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ervin Meng",
+            "email": "ervinmeng@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ervin-meng/php-contracts":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPOauth2\\": "src\\"
+        }
+    }
+}
